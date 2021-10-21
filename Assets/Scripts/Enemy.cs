@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
 	Vector3 playerOffsetNormalized;
 	float distance;
 
-	#if __DEBUG_AVAILABLE__
+#if __DEBUG_AVAILABLE__
 
 	private void OnDrawGizmos()
     {

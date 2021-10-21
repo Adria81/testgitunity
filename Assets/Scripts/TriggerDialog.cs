@@ -25,6 +25,6 @@ public class TriggerDialog : MonoBehaviour
 
     void onTriggerEnter2D(Collider2D other)
     {
-        //gameManager.OnTriggerDialog(index);
+        gameManager.OnTriggerDialog(index);
     }
 }
